@@ -105,3 +105,15 @@
 // } else {
 //   alert("We hope that this page looks ok!");
 // }
+
+//TODO: з зірочкою) ==========================
+
+// Зробіть функцію яка буде перевіряти слово
+// чи воно є поліндромом (слово, яке читається зліва на право і наоборот)
+
+// function isPalindrome(str) {
+//   return str === str.split("").reverse().join("");
+// }
+
+// console.log(isPalindrome("тест"));
+// console.log(isPalindrome("шалаш"));
