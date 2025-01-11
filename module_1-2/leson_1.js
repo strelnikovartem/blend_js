@@ -38,16 +38,16 @@
 // const num = 5;
 // let result = "";
 // switch (num) {
-//     case 1: 
+//     case 1:
 //         result = "Зима";
 //         break;
-//     case 2: 
+//     case 2:
 //         result = "Весна";
 //         break;
-//     case 3: 
+//     case 3:
 //         result = "Літо";
 //         break;
-//     case 4: 
+//     case 4:
 //         result = "Осінь";
 //         break;
 
@@ -56,3 +56,20 @@
 //         break;
 // }
 // console.log(result);
+
+// TODO: № 5 на for =====================================================
+//Напишіть цикл, який виводить у консоль
+// числа від max до min за спаданням
+// Додайте усі парні числа від min до max
+
+// const min = 0;
+// const max = 10;
+// let total = 0;
+// for (let i = max; i >= min; i-=1) {
+//     if (i % 2 === 0) {
+//         total += i;
+//         console.log(i);
+//     }
+    
+// }
+// console.log(total);
