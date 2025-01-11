@@ -21,11 +21,38 @@
 // if (min >= 0 && min < 15) {
 //     console.log("Перша чверть години");
 // } else if (min >= 15 && min < 30) {
-//     console.log("Друга чверть години");    
+//     console.log("Друга чверть години");
 // } else if (min >= 30 && min < 45) {
-//     console.log("Третя чверть години");    
+//     console.log("Третя чверть години");
 // } else if (min >= 45 && min < 60) {
 //     console.log("Четверта чверть години");
 // } else {
 //     console.log("Введене неправильне значення");
 // }:)
+
+//TODO: № 4 на switch ===========================================
+// Змінна num може набувати 4 значення: 1, 2, 3 або 4. Якщо вона має
+// значення '1', то у змінну result запишемо 'зима', якщо має значення
+// // '2' - 'весна' і так далі. Розв'яжіть завдання через switch-case.
+
+// const num = 5;
+// let result = "";
+// switch (num) {
+//     case 1: 
+//         result = "Зима";
+//         break;
+//     case 2: 
+//         result = "Весна";
+//         break;
+//     case 3: 
+//         result = "Літо";
+//         break;
+//     case 4: 
+//         result = "Осінь";
+//         break;
+
+//     default:
+//         result = "Error"
+//         break;
+// }
+// console.log(result);
