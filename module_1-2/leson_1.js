@@ -127,3 +127,16 @@
 // }
 
 // console.log(multiplyNumeric(menu));
+
+//TODO: № 10 ==============================================================
+// Напиши функцію яка приймає массив чисел і повертає новий массив,
+// унікальних чисел
+
+const numbers = [1, 1, 1, 2, 3, 4, 7, 7, 6, 6, 5, 4, 23, 22, 22, 111, 1, 5];
+
+function getUniqueNumbers(numbers) {
+    const uniqueSet = new Set(numbers);
+    return [...uniqueSet];
+}
+
+console.log(getUniqueNumbers(numbers));
