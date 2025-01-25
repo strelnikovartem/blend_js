@@ -41,3 +41,22 @@
 // }
 
 // console.log(calculateAverage(10, 10, 20, 200, "hello"));
+
+
+
+//TODO: № 4 ==============================================================
+// напиши функцію яка сумуватиме сусідні числа і пушити в новий масив
+//  const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
+
+// function sumNeighborNumbers (array) {
+//     const newArray = [];
+
+// for (let i = 0; i < array.length - 1; i++) {
+//     newArray.push(array[i] + array[i + 1]);
+    
+// }
+
+//     return newArray;
+// }
+
+// console.log(sumNeighborNumbers(someArr))
