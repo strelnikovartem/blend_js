@@ -87,7 +87,82 @@
 // };
 
 // function pullGet(key, obj) {
-  
+
 //   return Object.keys(obj).includes(key)
 // }
 // console.log(pullGet("car", obj));
+
+//TODO: № 9 ==============================================================
+// Створіть функцію multiplyNumeric(obj),
+// яка множить всі числові властивості об'єкта obj на 2
+// треба повертати об'єкт
+
+// const menu = {
+//   width: 200,
+//   height: 300,
+//   title: "My menu",
+// };
+
+// function multiplyNumeric(obj) {
+//   for (const key in obj) {
+//     if (typeof obj[key] === "number") {
+//       obj[key] *= 2;
+//     }
+//   }
+//   return obj;
+// }
+
+// console.log(multiplyNumeric(menu));
+
+//TODO: № 10 ==============================================================
+// Напиши функцію яка приймає массив чисел і повертає новий массив,
+// унікальних чисел
+
+// const numbers = [1, 1, 1, 2, 3, 4, 7, 7, 6, 6, 5, 4, 23, 22, 22, 111, 1, 5];
+
+// function getUniqueNumbers(numbers) {
+//     const uniqueSet = new Set(numbers);
+//     return [...uniqueSet];
+// }
+
+// console.log(getUniqueNumbers(numbers));
+
+// function getUniqueNumbers(numbers) {
+//   const uniqueNumbers = [];
+//   for (const number of numbers) {
+//     uniqueNumbers[number] = number;
+//   }
+//   return Object.values(uniqueNumbers);
+// }
+
+// console.log(getUniqueNumbers(numbers));
+
+//TODO: № 3  ============================================================
+// Напишіть функцію min(a,b), яка повертає менше чисело з a і b.
+//TODO: № 6 ==============================================================
+// Напиши скрипт, який для об'єкта user,
+// Послідовно:
+// 1. додати поле mood зі значенням 'happy'
+// 2. замінити hobby на 'skydiving'
+// 3. замінити значення premium на false
+// 4. виводити зміст об'єкта user у форматі
+// ключ:значення використовуючи Object.keys() і for...of
+
+// const user = {
+//   name: "John",
+//   age: 20,
+//   hobby: "tenis",
+//   premium: true,
+// };
+//TODO: № 7 ==============================================================
+// В нас є объект, в якому зберігаються зарплатні
+// нашої команди
+// Напишіть код для підсумовання всіх зарплат і
+// Збережіть його результат в перемінну sum.
+// Якщо объект salaries пустий, тоді результат має бути 0
+
+// const salaries = {
+//   Mango: 100,
+//   Poly: 160,
+//   Ajax: 1470,
+// };
