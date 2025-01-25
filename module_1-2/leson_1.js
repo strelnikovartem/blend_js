@@ -105,38 +105,3 @@
 // } else {
 //   alert("We hope that this page looks ok!");
 // }
-
-//TODO: № 9 ==============================================================
-// Створіть функцію multiplyNumeric(obj),
-// яка множить всі числові властивості об'єкта obj на 2
-// треба повертати об'єкт
-
-// const menu = {
-//   width: 200,
-//   height: 300,
-//   title: "My menu",
-// };
-
-// function multiplyNumeric(obj) {
-//   for (const key in obj) {
-//     if (typeof obj[key] === "number") {
-//       obj[key] *= 2;
-//     }
-//   }
-//   return obj;
-// }
-
-// console.log(multiplyNumeric(menu));
-
-//TODO: № 10 ==============================================================
-// Напиши функцію яка приймає массив чисел і повертає новий массив,
-// унікальних чисел
-
-const numbers = [1, 1, 1, 2, 3, 4, 7, 7, 6, 6, 5, 4, 23, 22, 22, 111, 1, 5];
-
-function getUniqueNumbers(numbers) {
-    const uniqueSet = new Set(numbers);
-    return [...uniqueSet];
-}
-
-console.log(getUniqueNumbers(numbers));
