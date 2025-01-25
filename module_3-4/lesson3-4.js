@@ -75,3 +75,19 @@
 //   }
 // }
 // logItems(array);
+//TODO: № 8 ================================================================
+// Потрібно написати функцію, яка приймає 2 параметри key та obj,
+// яка буде перебирати об'єкт
+// Якщо у об'єкта є такий ключ - поверне true
+
+// const obj = {
+//   name: "Igor",
+//   car: "Mercedes",
+//   carColor: "black",
+// };
+
+// function pullGet(key, obj) {
+  
+//   return Object.keys(obj).includes(key)
+// }
+// console.log(pullGet("car", obj));
